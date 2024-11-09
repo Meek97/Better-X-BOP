@@ -1,6 +1,6 @@
 {
   "pack": {
-    "pack_format": 15,
+    "pack_format": 48,
     "description": "A custom datapack that fixes and enhances Biomes O' Plenty Nether Biomes when using BetterNether & BCLib"
   }
 }
