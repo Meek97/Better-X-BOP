@@ -1,5 +1,5 @@
 {
-  "feature": "betterxbop:patch_basalt_stalagmite",
+  "feature": "betterxbop:patch_blackstone_stalactite",
   "placement": [
     {
       "type": "minecraft:height_range",
@@ -14,18 +14,22 @@
       }
     },
     {
+      "type": "minecraft:count",
+      "count": 8
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
       "type": "minecraft:biome"
     },
     {
-      "type": "minecraft:count_on_every_layer",
-      "count": 3
+      "type": "wover:every_layer",
+      "min": 4,
+      "top": false
     },
     {
       "type": "minecraft:biome"
-    },
-    {
-      "type": "minecraft:rarity_filter",
-      "chance": 3
     }
   ]
 }
