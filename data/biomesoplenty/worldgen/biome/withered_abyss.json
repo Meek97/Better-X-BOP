@@ -32,8 +32,9 @@
     [],
     [],
     [
-      "betterxbop:patch_blackstone_stalagmite_on_ground",
-      "betterxbop:patch_blackstone_stalactite_on_ceil"
+      "betterxbop:patch_basalt_stalactite_sparse",
+      "betterxbop:patch_blackstone_stalagmite",
+      "betterxbop:patch_blackstone_stalactite_sparse"
     ],
     [],
     [],
