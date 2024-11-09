@@ -19,7 +19,7 @@
           "state": {
             "type": "minecraft:simple_state_provider",
             "state": {
-              "Name": "betternether:basalt_stalactite",
+              "Name": "betternether:blackstone_stalactite",
               "Properties": {
                 "size": "0"
               }
@@ -48,7 +48,11 @@
             "predicates": [
               {
                 "type": "minecraft:matching_blocks",
-                "blocks": "minecraft:smooth_basalt"
+                "blocks": "minecraft:blackstone"
+              },
+              {
+                "type": "minecraft:matching_blocks",
+                "blocks": "minecraft:netherrack"
               }
             ]
           }
