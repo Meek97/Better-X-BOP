@@ -1,12 +1,7 @@
 {
+  "biome": "biomesoplenty:undergrowth",
+  "priority":1000,
   "ruleSource": {
-    "if_true": {
-      "biome_is": [
-        "biomesoplenty:undergrowth"
-      ],
-      "type": "minecraft:biome"
-    },
-    "then_run": {
       "sequence": [
         {
           "if_true": {
@@ -60,9 +55,10 @@
                 "type": "minecraft:stone_depth"
               },
               "then_run": {
+                "type": "wover:switch_rule",
                 "selector": {
-                  "nether_noise": 0,
-                  "type": "bclib:nether_noise"
+                  "type": "wover:nether_noise",
+                  "nether_noise": 0
                 },
                 "collection": [
                   {
@@ -95,8 +91,7 @@
                     },
                     "type": "minecraft:block"
                   }
-                ],
-                "type": "minecraft:bclib_switch_rule"
+                ]
               },
               "type": "minecraft:condition"
             }
@@ -114,9 +109,10 @@
                 "type": "minecraft:stone_depth"
               },
               "then_run": {
+                "type": "wover:switch_rule",
                 "selector": {
-                  "nether_noise": 0,
-                  "type": "bclib:nether_noise"
+                  "type": "wover:nether_noise",
+                  "nether_noise": 0
                 },
                 "collection": [
                   {
@@ -149,8 +145,7 @@
                     },
                     "type": "minecraft:block"
                   }
-                ],
-                "type": "minecraft:bclib_switch_rule"
+                ]
               },
               "type": "minecraft:condition"
             }
@@ -168,9 +163,10 @@
                 "type": "minecraft:stone_depth"
               },
               "then_run": {
+                "type": "wover:switch_rule",
                 "selector": {
-                  "nether_noise": 0,
-                  "type": "bclib:nether_noise"
+                  "type": "wover:nether_noise",
+                  "nether_noise": 0
                 },
                 "collection": [
                   {
@@ -247,8 +243,7 @@
                     },
                     "type": "minecraft:condition"
                   }
-                ],
-                "type": "minecraft:bclib_switch_rule"
+                ]
               },
               "type": "minecraft:condition"
             }
@@ -266,9 +261,10 @@
                 "type": "minecraft:stone_depth"
               },
               "then_run": {
+                "type": "wover:switch_rule",
                 "selector": {
-                  "nether_noise": 0,
-                  "type": "bclib:nether_noise"
+                  "type": "wover:nether_noise",
+                  "nether_noise": 0
                 },
                 "collection": [
                   {
@@ -301,8 +297,7 @@
                     },
                     "type": "minecraft:block"
                   }
-                ],
-                "type": "minecraft:bclib_switch_rule"
+                ]
               },
               "type": "minecraft:condition"
             }
@@ -317,8 +312,5 @@
         }
       ],
       "type": "minecraft:sequence"
-    },
-    "type": "minecraft:condition"
-  },
-  "biome": "biomesoplenty:undergrowth"
+    }
 }

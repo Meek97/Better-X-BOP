@@ -1,12 +1,7 @@
 {
+  "biome": "biomesoplenty:crystalline_chasm",
+  "priority":1000,
   "ruleSource": {
-    "if_true": {
-      "biome_is": [
-        "biomesoplenty:crystalline_chasm"
-      ],
-      "type": "minecraft:biome"
-    },
-    "then_run": {
       "sequence": [
         {
           "if_true": {
@@ -617,8 +612,5 @@
         }
       ],
       "type": "minecraft:sequence"
-    },
-    "type": "minecraft:condition"
-  },
-  "biome": "biomesoplenty:crystalline_chasm"
+    }
 }

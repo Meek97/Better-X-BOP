@@ -1,12 +1,7 @@
 {
+  "biome": "biomesoplenty:visceral_heap",
+  "priority":1000,
   "ruleSource": {
-    "if_true": {
-      "biome_is": [
-        "biomesoplenty:visceral_heap"
-      ],
-      "type": "minecraft:biome"
-    },
-    "then_run": {
       "sequence": [
         {
           "if_true": {
@@ -121,8 +116,5 @@
         }
       ],
       "type": "minecraft:sequence"
-    },
-    "type": "minecraft:condition"
-  },
-  "biome": "biomesoplenty:visceral_heap"
+    }
 }
