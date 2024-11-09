@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TAG_LIST=$(git tag)
+TAG_LIST=$(git tag --merged) #only check for tags that are reachable from the current tree
 echo "All Tags:"
 echo "${TAG_LIST}"
 
